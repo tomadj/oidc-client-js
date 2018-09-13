@@ -48,7 +48,7 @@ export class PopupWindow {
                 window["popupCallback_" + params.id] = this._callback.bind(this);
             }
 
-            this._popup.focus();
+           
             this._popup.window.location = params.url;
         }
 
